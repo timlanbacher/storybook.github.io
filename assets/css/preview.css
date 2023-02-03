@@ -1,0 +1,155 @@
+#docs-root > .sbdocs-wrapper {
+  /* padding: 0 4rem 4rem 4rem; */
+  padding: 0 3rem 3rem 3rem;
+  justify-content: flex-start;
+}
+
+#docs-root > .sbdocs-wrapper > .sbdocs-content {
+  max-width: 992px;
+}
+
+.sbdocs-content > h1.sbdocs-h1,
+.sbdocs-content > div > div > h1.sbdocs-h1 {
+  margin-top: 4rem;
+}
+
+h1.sbdocs,
+h2.sbdocs,
+h3.sbdocs,
+h4.sbdocs,
+h5.sbdocs {
+  font-family: 'Nunito Sans', -apple-system, '.SFNSText-Regular',
+    'San Francisco', BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+  font-weight: 700;
+  color: #333333;
+  hyphens: auto;
+  word-break: break-word;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border: none;
+}
+
+h1.sbdocs.sbdocs-h1 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 769px) {
+  h1.sbdocs.sbdocs-h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-top: 4rem;
+  }
+}
+
+h2.sbdocs.sbdocs-h2 {
+  font-size: 1.75rem;
+  line-height: 2rem;
+  margin-top: 4rem;
+}
+
+@media screen and (min-width: 769px) {
+  h2.sbdocs.sbdocs-h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-top: 6rem;
+  }
+}
+
+h3.sbdocs.sbdocs-h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 769px) {
+  h3.sbdocs.sbdocs-h3 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-top: 4rem;
+  }
+}
+
+h4.sbdocs.sbdocs-h4 {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 769px) {
+  h4.sbdocs.sbdocs-h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+h5.sbdocs.sbdocs-h5 {
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+
+h6.sbdocs.sbdocs-h6 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+p.sbdocs-p {
+  font-family: 'Nunito Sans', -apple-system, '.SFNSText-Regular',
+    'San Francisco', BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+  font-size: 1rem;
+  color: #333333;
+}
+
+p.sbdocs-p p {
+  font-family: 'Nunito Sans', -apple-system, '.SFNSText-Regular',
+    'San Francisco', BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+  color: #333333;
+}
+
+p.sbdocs-p.is-size-small {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+a.sbdocs-a,
+a.is-link {
+  font-family: 'Nunito Sans', -apple-system, '.SFNSText-Regular',
+    'San Francisco', BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  color: #ff8c00;
+}
+
+a.sbdocs-a:not(.button):hover,
+a.is-link:hover {
+  color: #ffa333;
+}
+
+a.sbdocs-a:not(.button):active,
+a.is-link:active {
+  color: #cc7000;
+}
+
+a.button.is-primary {
+  color: #ff8c00;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: solid 2px;
+}
+
+a.button.is-primary:hover {
+  color: #ffa333;
+}
+
+a.button.is-primary:active {
+  color: #cc7000;
+}
